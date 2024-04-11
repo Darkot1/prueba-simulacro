@@ -13,6 +13,7 @@ body{
     margin: auto;
 }
 
+/*HEADER CON NAV BAR*/
 header{
     width: 100%;
     height: 100vh;
@@ -86,7 +87,7 @@ header{
     color: #777;
     font-size: 20px;
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
     .nav_bar ul, .logo, .nav_bar{
         flex-direction: column;
         padding: 25px;
@@ -104,7 +105,7 @@ header{
         width: 100%;
     }
 }
-
+/*SECCION 1*/
 .section1{
     margin-top: 20px;
     width: 100%;
@@ -112,8 +113,7 @@ header{
     background-color: black;
     color: #fff;
     display: flex;
-    gap: 30px;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -127,7 +127,7 @@ header{
     width: 40%;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
     .section1{
         flex-direction: column;
         justify-content: center;
@@ -135,6 +135,7 @@ header{
     
 }
 
+/*SECCION 2 */
 .section2{
     margin-top: 20px;
     width: 100%;
@@ -142,3 +143,102 @@ header{
     background-color: #000;
     display: flex;
 }
+
+
+
+
+
+
+
+
+
+
+.section3{
+    margin-top: 20px;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+}
+
+
+/*SECTION 4 */
+.section4{
+    margin-top: 20px;
+    width: 100%;
+    height: 90vh;
+    background-color: #000;
+    display: flex;
+    color: #fff;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.con_nosotros{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-self: stretch;
+}
+
+@media screen and (max-width: 600px) {
+    .section4{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    }
+
+/*FOOTER*/
+
+.footer{
+    display: flex;
+    height: 10vh;
+    background-color: #000;
+    color: #fff;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.titulo_footer h2{
+    font-size: 30px;
+    margin: 0;
+    width: 20%;
+    text-align: center;
+}
+
+.nav_footer ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-self: stretch;
+    
+}
+
+.nav_footer a{
+    background-color: antiquewhite;
+    display: block;
+    text-align: center;
+}
+
+.redes{
+    display: flex;
+    width: 40%;
+    height: 10vh;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 600px) {
+    .footer{
+        flex-direction: column;
+    }
+    }
